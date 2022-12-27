@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Prosto+One&display=swap');
+body {
+    background-color: #f3f2ac;
+    margin: 0; 
+    height: 100%; 
+    overflow: hidden
+}
+h1 {
+    font-family: 'Prosto One', cursive;
+    font-size: xx-large;
+    background-color: #d4d111;
+    width: 1600px;
+    height: 50px;
+    margin-left: -8px;
+    margin-top: -8px;
+    border-bottom: 10px solid #b4b214;
+    text-align: left;
+    padding-left: 15px;
+    padding-top: 10px;
+    text-justify: inter-word;
+}
+h2 {
+    font-family: 'Prosto One', cursive;
+    font-size: x-large;
+}
+.achievements {
+    width: 400px;
+    height: 300px;
+}
+.cryptoButton {
+    background-color: #d4d111;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Prosto One', cursive;
+    margin: 4px 2px;
+    cursor: pointer;
+    height: 50px;
+    width: 200px;
+    border-radius: 5px;
+    border-bottom: 10px solid #b4b214;
+}
+.cryptoButton:hover {
+    background-color: #d4d111;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Prosto One', cursive;
+    margin: 4px 2px;
+    cursor: pointer;
+    height: 50px;
+    width: 200px;
+    border-radius: 5px;
+    box-shadow: 0 6px 8px 0 rgba(0,0,0,0.24), 0 8px 25px 0 rgba(0,0,0,0.19);
+    border-bottom: 10px solid #b4b214;
+}
+.cryptoButton:active {
+    transform: scale(0.95);
+    background-color: #d4d111;
+}
+.upgradeButton {
+    background-color: #ebe973;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    font-family: 'Prosto One', cursive;
+    margin: 4px 2px;
+    cursor: pointer;
+    height: 25px;
+    width: 170px;
+    border-radius: 5px;
+    border-bottom: 5px solid #dfdd6a;
+}
+.upgradeButton:hover {
+    background-color: #ebe973;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    font-family: 'Prosto One', cursive;
+    margin: 4px 2px;
+    cursor: pointer;
+    height: 25px;
+    width: 170px;
+    border-radius: 5px;
+    box-shadow: 0 6px 8px 0 rgba(0,0,0,0.24), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border-bottom: 5px solid #dfdd6a;
+}
+.upgradeButton:active {
+    transform: scale(0.95);
+    background-color: #ebe973;
+}
+.floatRight{
+    float: right;
+    margin-right: 150px;
+}
